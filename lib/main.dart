@@ -41,8 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    super.initState();
     store.startDiscovery();
+    super.initState();
   }
 
   @override

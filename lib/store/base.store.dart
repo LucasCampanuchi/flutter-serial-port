@@ -1,6 +1,4 @@
-import 'dart:typed_data';
-
-import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
+import 'package:socket_io_client/socket_io_client.dart' as IO;
 
 import 'package:mobx/mobx.dart';
 part 'base.store.g.dart';
@@ -9,12 +7,6 @@ part 'base.store.g.dart';
 class BaseStore = _BaseStoreBase with _$BaseStore;
 
 abstract class _BaseStoreBase with Store {
-  @observable
-  FlutterBluetoothSerial bluetooth = FlutterBluetoothSerial.instance;
-
-  @observable
-  BluetoothConnection? connection;
-
   @observable
   double phValue = 0;
 
@@ -25,44 +17,30 @@ abstract class _BaseStoreBase with Store {
 
   @action
   Future<void> startDiscovery() async {
-    /* List<BluetoothDevice> devices = [];
+    print('teste');
 
-    bluetooth.startDiscovery().listen((r) {
-      print("${r.device.name} - ${r.device.address} - ${r.device.type}");
-
-      devices.add(r.device);
+    IO.Socket socket = IO.io("http://localhost:3000/", <String, dynamic>{
+      'autoConnect': false,
+      'transports': ['websocket'],
     });
+    socket.connect();
+    socket.onConnect((_) {
+      print("Connection established");
+    });
+    socket.onDisconnect((_) => print("connection Disconnection"));
+    socket.onConnectError((err) => print(err));
+    socket.onError((err) => print(err));
 
-    // Connect to the Bluetooth device
-    for (var device in devices) {
-      if (device.name == "NomeDoSeuDispositivoBluetooth") {
-        bluetooth.cancelDiscovery();
-        BluetoothConnection.toAddress('6C:F7:84:B1:4B:74').then((con) {
-          print('Conectado a ${device.name}');
+    socket.on('arduinoData', (data) {
+      print(data);
 
-          connection = con;
+      if (data.toString().contains('pH')) {
+        String tempPh = data.toString().split('pH:')[1].split(' ')[1];
 
-          // Escutar dados recebidos
-          connection?.input?.listen((Uint8List data) {
-            String message = String.fromCharCodes(data);
-            print('Recebido: $message');
-            // Faça o que quiser com os dados recebidos aqui
-          });
-        });
+        setPhValue(double.parse(tempPh));
       }
-    } */
 
-    BluetoothConnection.toAddress('6C:F7:84:B1:4B:74').then((con) {
-      print('Conectado ');
-
-      connection = con;
-
-      // Escutar dados recebidos
-      connection?.input?.listen((Uint8List data) {
-        String message = String.fromCharCodes(data);
-        print('Recebido: $message');
-        // Faça o que quiser com os dados recebidos aqui
-      });
+      //setPhValue(data);
     });
   }
 }
