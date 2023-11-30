@@ -25,12 +25,27 @@ mixin _$BaseStore on _BaseStoreBase, Store {
     });
   }
 
-  late final _$startDiscoveryAsyncAction =
-      AsyncAction('_BaseStoreBase.startDiscovery', context: context);
+  late final _$portAtom = Atom(name: '_BaseStoreBase.port', context: context);
 
   @override
-  Future<void> startDiscovery() {
-    return _$startDiscoveryAsyncAction.run(() => super.startDiscovery());
+  SerialPort? get port {
+    _$portAtom.reportRead();
+    return super.port;
+  }
+
+  @override
+  set port(SerialPort? value) {
+    _$portAtom.reportWrite(value, super.port, () {
+      super.port = value;
+    });
+  }
+
+  late final _$initAsyncAction =
+      AsyncAction('_BaseStoreBase.init', context: context);
+
+  @override
+  Future<void> init(BuildContext context) {
+    return _$initAsyncAction.run(() => super.init(context));
   }
 
   late final _$_BaseStoreBaseActionController =
@@ -48,9 +63,21 @@ mixin _$BaseStore on _BaseStoreBase, Store {
   }
 
   @override
+  void showModal(BuildContext context) {
+    final _$actionInfo = _$_BaseStoreBaseActionController.startAction(
+        name: '_BaseStoreBase.showModal');
+    try {
+      return super.showModal(context);
+    } finally {
+      _$_BaseStoreBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
   String toString() {
     return '''
-phValue: ${phValue}
+phValue: ${phValue},
+port: ${port}
     ''';
   }
 }

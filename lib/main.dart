@@ -48,17 +48,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Medidor de pH'),
-        backgroundColor: const Color.fromRGBO(
-          42,
-          39,
-          68,
-          1,
-        ),
-        elevation: 0,
-        centerTitle: true,
-      ),
       backgroundColor: const Color.fromRGBO(
         42,
         39,
