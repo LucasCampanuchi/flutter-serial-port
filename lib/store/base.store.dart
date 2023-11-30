@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_libserialport/flutter_libserialport.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
 
 import 'package:mobx/mobx.dart';
 part 'base.store.g.dart';
@@ -11,49 +12,68 @@ abstract class _BaseStoreBase with Store {
   @observable
   double phValue = 0;
 
-  @observable
-  SerialPort? port;
-
   @action
   void setPhValue(double value) {
     phValue = value;
   }
+
+  @observable
+  double tempValue = 0;
+
+  @action
+  void setTempValue(double value) {
+    tempValue = value;
+  }
+
+  @observable
+  SerialPort? port;
+
+  @observable
+  String? selectedOption;
 
   @action
   void showModal(BuildContext context) {
     showModalBottomSheet(
       context: context,
       builder: (BuildContext context) {
-        return Container(
-          padding: const EdgeInsets.all(16.0),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
-              DropdownButton<String>(
-                value: selectedOption,
-                onChanged: (String newValue) {
-                  setState(() {
+        return Observer(
+          builder: (_) => Container(
+            constraints: const BoxConstraints(
+              maxHeight: 200,
+              minWidth: 200,
+            ),
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
+                DropdownButton<String>(
+                  isExpanded: true,
+                  value: selectedOption,
+                  onChanged: (String? newValue) {
                     selectedOption = newValue;
-                  });
-                },
-                items: <String>['Opção 1', 'Opção 2', 'Opção 3', 'Opção 4']
-                    .map<DropdownMenuItem<String>>((String value) {
-                  return DropdownMenuItem<String>(
-                    value: value,
-                    child: Text(value),
-                  );
-                }).toList(),
-              ),
-              const SizedBox(height: 16.0),
-              ElevatedButton(
-                onPressed: () {
-                  // Lógica para lidar com a seleção e iniciar
-                  print('Opção selecionada: $selectedOption');
-                  // Adicione a lógica de início aqui
-                },
-                child: const Text('Iniciar'),
-              ),
-            ],
+                  },
+                  items: <String>[
+                    ...SerialPort.availablePorts,
+                  ].map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
+                ),
+                const SizedBox(height: 16.0),
+                ElevatedButton(
+                  onPressed: () {
+                    print(selectedOption);
+                    // Lógica para lidar com a seleção e iniciar
+                    Navigator.pop(context);
+                    init(context);
+                    // Adicione a lógica de início aqui
+                  },
+                  child: const Text('Iniciar'),
+                ),
+              ],
+            ),
           ),
         );
       },
@@ -62,25 +82,35 @@ abstract class _BaseStoreBase with Store {
 
   @action
   Future<void> init(BuildContext context) async {
-    if (port == null) {
+    if (selectedOption == null) {
       showModal(context);
       return;
     }
 
-    /* open a model to search available ports */
+    port = SerialPort(selectedOption!);
 
     if (port!.openReadWrite()) {
       final reader = SerialPortReader(port!);
 
       reader.stream.listen((data) {
-        try {
-          String tempPh = String.fromCharCodes(data)
-              .toString()
-              .split('pH:')[1]
-              .split(' ')[1];
+        String realData = String.fromCharCodes(data);
 
-          setPhValue(double.parse(tempPh));
-          print('received: $data');
+        try {
+          if (realData.contains('pH:')) {
+            String tempPh = realData.split('pH:')[1].split(' ')[1];
+
+            setPhValue(double.parse(tempPh));
+          }
+        } catch (e) {
+          print(e);
+        }
+
+        try {
+          if (realData.contains('temp:')) {
+            String tempTemp = realData.split('temp:')[1].split(' ')[1];
+
+            setTempValue(double.parse(tempTemp));
+          }
         } catch (e) {
           print(e);
           String.fromCharCodes(data);

@@ -25,6 +25,22 @@ mixin _$BaseStore on _BaseStoreBase, Store {
     });
   }
 
+  late final _$tempValueAtom =
+      Atom(name: '_BaseStoreBase.tempValue', context: context);
+
+  @override
+  double get tempValue {
+    _$tempValueAtom.reportRead();
+    return super.tempValue;
+  }
+
+  @override
+  set tempValue(double value) {
+    _$tempValueAtom.reportWrite(value, super.tempValue, () {
+      super.tempValue = value;
+    });
+  }
+
   late final _$portAtom = Atom(name: '_BaseStoreBase.port', context: context);
 
   @override
@@ -37,6 +53,22 @@ mixin _$BaseStore on _BaseStoreBase, Store {
   set port(SerialPort? value) {
     _$portAtom.reportWrite(value, super.port, () {
       super.port = value;
+    });
+  }
+
+  late final _$selectedOptionAtom =
+      Atom(name: '_BaseStoreBase.selectedOption', context: context);
+
+  @override
+  String? get selectedOption {
+    _$selectedOptionAtom.reportRead();
+    return super.selectedOption;
+  }
+
+  @override
+  set selectedOption(String? value) {
+    _$selectedOptionAtom.reportWrite(value, super.selectedOption, () {
+      super.selectedOption = value;
     });
   }
 
@@ -63,6 +95,17 @@ mixin _$BaseStore on _BaseStoreBase, Store {
   }
 
   @override
+  void setTempValue(double value) {
+    final _$actionInfo = _$_BaseStoreBaseActionController.startAction(
+        name: '_BaseStoreBase.setTempValue');
+    try {
+      return super.setTempValue(value);
+    } finally {
+      _$_BaseStoreBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
   void showModal(BuildContext context) {
     final _$actionInfo = _$_BaseStoreBaseActionController.startAction(
         name: '_BaseStoreBase.showModal');
@@ -77,7 +120,9 @@ mixin _$BaseStore on _BaseStoreBase, Store {
   String toString() {
     return '''
 phValue: ${phValue},
-port: ${port}
+tempValue: ${tempValue},
+port: ${port},
+selectedOption: ${selectedOption}
     ''';
   }
 }

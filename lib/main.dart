@@ -41,7 +41,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    store.startDiscovery();
+    Future.delayed(
+        const Duration(
+          seconds: 3,
+        ), () {
+      store.init(context);
+    });
+
     super.initState();
   }
 
