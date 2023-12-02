@@ -36,7 +36,7 @@ class PhChart extends StatelessWidget {
         child: Column(
           children: [
             const Text(
-              'PH',
+              'pH',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,

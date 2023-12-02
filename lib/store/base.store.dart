@@ -3,7 +3,10 @@ import 'package:flutter_libserialport/flutter_libserialport.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import 'package:mobx/mobx.dart';
+import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:tcc_daniel/tools/log_write.dart';
+
+import '../components/ph_variation_chart.dart';
 part 'base.store.g.dart';
 
 // ignore: library_private_types_in_public_api
@@ -16,14 +19,44 @@ abstract class _BaseStoreBase with Store {
   @action
   void setPhValue(double value) {
     phValue = value;
+
+    addChartData(value);
   }
 
   @observable
-  double tempValue = 0;
+  int index = 0;
+
+  @observable
+  ChartSeriesController? chartSeriesController;
+
+  @observable
+  List<ChartData> chartData = [];
 
   @action
-  void setTempValue(double value) {
-    tempValue = value;
+  void addChartData(double ph) {
+    double formattedPh = double.parse(ph.toStringAsFixed(1));
+
+    if (chartData.isNotEmpty) {
+      if (chartData.last.ph == formattedPh) {
+        return;
+      }
+    }
+
+    chartData.add(
+      ChartData(
+        index,
+        formattedPh,
+      ),
+    );
+
+    chartData = chartData;
+
+    chartSeriesController!.updateDataSource(
+      addedDataIndexes: <int>[index],
+      removedDataIndexes: <int>[],
+    );
+
+    index++;
   }
 
   @observable
@@ -108,34 +141,24 @@ abstract class _BaseStoreBase with Store {
         'SerialPort está aberta para leitura e escrita: ${port!.openReadWrite()}',
       );
 
-      if (port!.openReadWrite()) {
-        final reader = SerialPortReader(port!);
-        await writeLog('SerialPortReader: $reader');
+      final reader = SerialPortReader(port!);
 
-        reader.stream.listen((data) {
-          String realData = String.fromCharCodes(data);
+      await writeLog('SerialPortReader: $reader');
 
-          try {
-            if (realData.contains('pH:')) {
-              String tempPh = realData.split('pH:')[1].split(' ')[1];
+      reader.stream.listen((data) {
+        String realData = String.fromCharCodes(data);
+        writeLog('Dados recebidos: $realData - ${DateTime.now()}');
 
-              setPhValue(double.parse(tempPh));
-            }
-          } catch (e) {
-            writeLog('Erro ao converter pH: $e');
+        try {
+          if (realData.contains('pH:')) {
+            String tempPh = realData.split('pH:')[1].split(' ')[1];
+
+            setPhValue(double.parse(tempPh));
           }
-
-          try {
-            if (realData.contains('temp:')) {
-              String tempTemp = realData.split('temp:')[1].split(' ')[1];
-
-              setTempValue(double.parse(tempTemp));
-            }
-          } catch (e) {
-            writeLog('Erro ao converter temp: $e');
-          }
-        });
-      }
+        } catch (e) {
+          writeLog('Erro ao converter pH: $e');
+        }
+      });
     } catch (e) {
       await writeLog('Erro ao iniciar a conexão com a porta serial (l138): $e');
     }

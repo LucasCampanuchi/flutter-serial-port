@@ -25,19 +25,51 @@ mixin _$BaseStore on _BaseStoreBase, Store {
     });
   }
 
-  late final _$tempValueAtom =
-      Atom(name: '_BaseStoreBase.tempValue', context: context);
+  late final _$indexAtom = Atom(name: '_BaseStoreBase.index', context: context);
 
   @override
-  double get tempValue {
-    _$tempValueAtom.reportRead();
-    return super.tempValue;
+  int get index {
+    _$indexAtom.reportRead();
+    return super.index;
   }
 
   @override
-  set tempValue(double value) {
-    _$tempValueAtom.reportWrite(value, super.tempValue, () {
-      super.tempValue = value;
+  set index(int value) {
+    _$indexAtom.reportWrite(value, super.index, () {
+      super.index = value;
+    });
+  }
+
+  late final _$chartSeriesControllerAtom =
+      Atom(name: '_BaseStoreBase.chartSeriesController', context: context);
+
+  @override
+  ChartSeriesController? get chartSeriesController {
+    _$chartSeriesControllerAtom.reportRead();
+    return super.chartSeriesController;
+  }
+
+  @override
+  set chartSeriesController(ChartSeriesController? value) {
+    _$chartSeriesControllerAtom.reportWrite(value, super.chartSeriesController,
+        () {
+      super.chartSeriesController = value;
+    });
+  }
+
+  late final _$chartDataAtom =
+      Atom(name: '_BaseStoreBase.chartData', context: context);
+
+  @override
+  List<ChartData> get chartData {
+    _$chartDataAtom.reportRead();
+    return super.chartData;
+  }
+
+  @override
+  set chartData(List<ChartData> value) {
+    _$chartDataAtom.reportWrite(value, super.chartData, () {
+      super.chartData = value;
     });
   }
 
@@ -95,11 +127,11 @@ mixin _$BaseStore on _BaseStoreBase, Store {
   }
 
   @override
-  void setTempValue(double value) {
+  void addChartData(double ph) {
     final _$actionInfo = _$_BaseStoreBaseActionController.startAction(
-        name: '_BaseStoreBase.setTempValue');
+        name: '_BaseStoreBase.addChartData');
     try {
-      return super.setTempValue(value);
+      return super.addChartData(ph);
     } finally {
       _$_BaseStoreBaseActionController.endAction(_$actionInfo);
     }
@@ -120,7 +152,9 @@ mixin _$BaseStore on _BaseStoreBase, Store {
   String toString() {
     return '''
 phValue: ${phValue},
-tempValue: ${tempValue},
+index: ${index},
+chartSeriesController: ${chartSeriesController},
+chartData: ${chartData},
 port: ${port},
 selectedOption: ${selectedOption}
     ''';

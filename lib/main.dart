@@ -5,7 +5,7 @@ import 'package:tcc_daniel/store/base.store.dart';
 
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import 'components/temp_chart.dart';
+import 'components/ph_variation_chart.dart';
 
 void main() {
   return runApp(const GaugeApp());
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Expanded(
-              child: TempChart(
+              child: PhVariationChart(
                 store: store,
               ),
             ),

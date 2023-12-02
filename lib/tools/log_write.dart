@@ -1,6 +1,7 @@
 import 'dart:io';
 
 Future<void> writeLog(String text) async {
+  print(text);
   final File file = File('./log.txt');
 
   String? fileContent;

@@ -1,0 +1,1170 @@
+
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:38:14.601968
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:27.700651
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:27.716277
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:28.720872
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:28.739903
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:29.739947
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:29.759946
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:30.760657
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:30.780626
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:31.780627
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:38:31.800629
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:44.895829
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:44.911487
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:45.904629
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:45.935916
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:46.938297
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:46.958297
+Dados recebidos: .24
+ - 2023-12-01 23:38:47.9592677
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:47.978297
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:48.979267
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:38:48.998267
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:02.097278
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:02.116270
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:03.117287
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:03.136317
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:04.137347
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:04.156351
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:05.156534
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:05.176534
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:06.176633
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:39:06.196630
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x144f28f0ed0)
+SerialPort está aberta para leitura e escrita: false
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x19a1f5b6130)
+SerialPort está aberta para leitura e escrita: true
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Erro ao converter pH: Bad state: No element:40:01.989686
+Erro ao converter pH: Bad state: No element:40:03.998697
+Erro ao converter pH: Bad state: No element:40:06.011700
+Erro ao converter pH: Bad state: No element:40:08.024893
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:40:10.038864
+Dados recebidos: pH: 10.00
+ - 2023-12-01 23:40:24.150842
+Erro ao converter pH: Bad state: No element3:40:24.171843
+Erro ao converter pH: Bad state: No element3:40:25.170842
+Erro ao converter pH: Bad state: No element3:40:25.190843
+Erro ao converter pH: Bad state: No element3:40:26.191437
+Dados recebidos: .00
+ - 2023-12-01 23:40:26.2104677
+Erro ao converter pH: Bad state: No element3:40:27.210501
+Erro ao converter pH: Bad state: No element3:40:27.230560
+Erro ao converter pH: Bad state: No element3:40:28.230591
+Erro ao converter pH: Bad state: No element3:40:28.250559
+Dados recebidos: pH - 2023-12-01 23:40:41.348772.348772
+Erro ao converter pH: Bad state: No element3:40:41.368776
+Erro ao converter pH: Bad state: No element3:40:42.368732
+Erro ao converter pH: Bad state: No element3:40:42.388754
+Erro ao converter pH: Bad state: No element3:40:43.388787
+Erro ao converter pH: Bad state: No element3:40:43.407417
+Erro ao converter pH: Bad state: No element3:40:44.408520
+Erro ao converter pH: Bad state: No element3:40:44.424146
+Erro ao converter pH: Bad state: No element3:40:45.423378
+Erro ao converter pH: Bad state: No element3:40:45.439004
+Erro ao converter pH: Bad state: No element3:40:58.543950
+Erro ao converter pH: Bad state: No element3:40:58.567250
+Erro ao converter pH: Bad state: No element3:40:59.557123
+Erro ao converter pH: Bad state: No element3:40:59.572756
+Erro ao converter pH: Bad state: No element3:41:00.581450
+Erro ao converter pH: Bad state: No element3:41:00.596895
+Erro ao converter pH: Bad state: No element
+Erro ao converter pH: Bad state: No element3:41:01.620390
+Erro ao converter pH: Bad state: No element3:41:02.624191
+Erro ao converter pH: Bad state: No element3:41:02.641234
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x27c62a06620)
+SerialPort está aberta para leitura e escrita: true
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Erro ao converter pH: Bad state: No element:41:36.795010
+Erro ao converter pH: Bad state: No element:41:38.803115
+Erro ao converter pH: Bad state: No element:41:40.817283
+Erro ao converter pH: Bad state: No element:41:42.830277
+Erro ao converter pH: Bad state: No element:41:44.844296
+Erro ao converter pH: Bad state: No element:41:58.954957
+Erro ao converter pH: Bad state: No element:41:58.986177
+Erro ao converter pH: Bad state: No element:41:59.972613
+Erro ao converter pH: Bad state: No element:41:59.989158
+Erro ao converter pH: Bad state: No element:42:00.989599
+Erro ao converter pH: Bad state: No element:42:01.006036
+Erro ao converter pH: Bad state: No element:42:02.005944
+Erro ao converter pH: Bad state: No element:42:02.022631
+Erro ao converter pH: Bad state: No element:42:03.022663
+Erro ao converter pH: Bad state: No element:42:03.039248
+Erro ao converter pH: Bad state: No element3:42:16.141303
+Erro ao converter pH: Bad state: No element3:42:16.171554
+Dados recebidos: H: 12.16
+ - 2023-12-01 23:42:17.157120
+Erro ao converter pH: Bad state: No element3:42:17.188597
+Erro ao converter pH: Bad state: No element3:42:18.189522
+Erro ao converter pH: Bad state: No element3:42:18.207376
+Erro ao converter pH: Bad state: No element3:42:19.207172
+Erro ao converter pH: Bad state: No element3:42:19.222692
+Erro ao converter pH: Bad state: No element3:42:20.222618
+Erro ao converter pH: Bad state: No element3:42:20.239335
+Erro ao converter pH: Bad state: No element3:42:33.348276
+Erro ao converter pH: Bad state: No element3:42:33.367274
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:42:34.367362
+Erro ao converter pH: Bad state: No element3:42:34.387382
+Erro ao converter pH: Bad state: No element3:42:35.387456
+Erro ao converter pH: Bad state: No element3:42:35.407451
+Erro ao converter pH: Bad state: No element3:42:36.407420
+Erro ao converter pH: Bad state: No element3:42:36.427424
+Erro ao converter pH: Bad state: No element3:42:37.427453
+Erro ao converter pH: Bad state: No element3:42:37.447421
+Erro ao converter pH: Bad state: No element3:42:50.532056
+Erro ao converter pH: Bad state: No element3:42:50.561079
+Erro ao converter pH: Bad state: No element3:42:51.557395
+Erro ao converter pH: Bad state: No element3:42:51.572684
+Erro ao converter pH: Bad state: No element3:42:52.573581
+Erro ao converter pH: Bad state: No element
+Erro ao converter pH: Bad state: No element3:42:53.605451
+Erro ao converter pH: Bad state: No element3:42:53.625448
+Erro ao converter pH: Bad state: No element3:42:54.626236
+Erro ao converter pH: Bad state: No element3:42:54.645264
+Erro ao converter pH: Bad state: No element3:43:07.737995
+Erro ao converter pH: Bad state: No element3:43:07.753620
+Erro ao converter pH: Bad state: No element3:43:08.755827
+Erro ao converter pH: Bad state: No element3:43:08.772600
+Erro ao converter pH: Bad state: No element3:43:09.772453
+Erro ao converter pH: Bad state: No element3:43:09.789141
+Erro ao converter pH: Bad state: No element3:43:10.796148
+Erro ao converter pH: Bad state: No element3:43:10.823589
+Erro ao converter pH: Bad state: No element3:43:11.824102
+Erro ao converter pH: Bad state: No element3:43:11.839258
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x16be0465fa0)
+SerialPort está aberta para leitura e escrita: true
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Erro ao converter pH: Bad state: No element:43:45.124283
+Erro ao converter pH: Bad state: No element:43:47.133732
+Erro ao converter pH: Bad state: No element:43:49.146094
+Erro ao converter pH: Bad state: No element:43:51.160251
+Erro ao converter pH: Bad state: No element:43:53.173482
+Erro ao converter pH: Bad state: No element3:44:07.286202
+Erro ao converter pH: Bad state: No element3:44:07.311202
+Erro ao converter pH: Bad state: No element3:44:08.305313
+Erro ao converter pH: Bad state: No element3:44:08.325315
+Erro ao converter pH: Bad state: No element3:44:09.325516
+Erro ao converter pH: Bad state: No element3:44:09.345512
+Erro ao converter pH: Bad state: No element3:44:10.345515
+Erro ao converter pH: Bad state: No element3:44:10.365514
+Erro ao converter pH: Bad state: No element3:44:11.365613
+Erro ao converter pH: Bad state: No element3:44:11.385611
+Erro ao converter pH: Bad state: No element3:44:24.484971
+Erro ao converter pH: Bad state: No element3:44:24.503970
+Erro ao converter pH: Bad state: No element3:44:25.503969
+Erro ao converter pH: Bad state: No element3:44:25.523970
+Erro ao converter pH: Bad state: No element3:44:26.524111
+Erro ao converter pH: Bad state: No element3:44:26.544111
+Erro ao converter pH: Bad state: No element3:44:27.544217
+Erro ao converter pH: Bad state: No element3:44:27.564217
+Erro ao converter pH: Bad state: No element3:44:28.564216
+Erro ao converter pH: Bad state: No element3:44:28.583216
+Erro ao converter pH: Bad state: No element3:44:41.672257
+Erro ao converter pH: Bad state: No element3:44:41.689334
+Erro ao converter pH: Bad state: No element3:44:42.705250
+Erro ao converter pH: Bad state: No element3:44:42.723096
+Erro ao converter pH: Bad state: No element3:44:43.722207
+Erro ao converter pH: Bad state: No element3:44:43.739527
+Erro ao converter pH: Bad state: No element3:44:44.738956
+Erro ao converter pH: Bad state: No element3:44:44.755682
+Erro ao converter pH: Bad state: No element3:44:45.755479
+Erro ao converter pH: Bad state: No element3:44:45.772337
+Erro ao converter pH: Bad state: No element3:44:58.881547
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:44:58.903548
+Erro ao converter pH: Bad state: No element3:44:59.889165
+Erro ao converter pH: Bad state: No element3:44:59.905710
+Erro ao converter pH: Bad state: No element3:45:00.907176
+Erro ao converter pH: Bad state: No element3:45:00.940063
+Erro ao converter pH: Bad state: No element3:45:01.939022
+Erro ao converter pH: Bad state: No element3:45:01.955680
+Erro ao converter pH: Bad state: No element3:45:02.956920
+Erro ao converter pH: Bad state: No element3:45:02.972546
+Erro ao converter pH: Bad state: No element3:45:16.076581
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:45:16.096049
+Erro ao converter pH: Bad state: No element3:45:17.089940
+Erro ao converter pH: Bad state: No element3:45:17.113272
+Erro ao converter pH: Bad state: No element3:45:18.106242
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:45:18.137495
+Erro ao converter pH: Bad state: No element3:45:19.138714
+Erro ao converter pH: Bad state: No element3:45:19.155451
+Erro ao converter pH: Bad state: No element3:45:20.155435
+Erro ao converter pH: Bad state: No element3:45:20.172386
+Erro ao converter pH: Bad state: No element3:45:33.276904
+Erro ao converter pH: Bad state: No element3:45:33.298905
+Dados recebidos: 8
+ - 2023-12-01 23:45:34.29755896566
+Erro ao converter pH: Bad state: No element3:45:34.319768
+Erro ao converter pH: Bad state: No element3:45:35.316664
+Erro ao converter pH: Bad state: No element3:45:35.336764
+Erro ao converter pH: Bad state: No element3:45:36.336776
+Erro ao converter pH: Bad state: No element3:45:36.356776
+Erro ao converter pH: Bad state: No element3:45:37.356812
+Erro ao converter pH: Bad state: No element3:45:37.376878
+Dados recebidos: : 12.28
+ - 2023-12-01 23:45:50.476236
+Erro ao converter pH: Bad state: No element3:45:50.494237
+Erro ao converter pH: Bad state: No element3:45:51.495395
+Erro ao converter pH: Bad state: No element3:45:51.514482
+Erro ao converter pH: Bad state: No element3:45:52.515344
+Erro ao converter pH: Bad state: No element3:45:52.534435
+Dados recebidos: 2.28
+ - 2023-12-01 23:45:53.535824
+Erro ao converter pH: Bad state: No element3:45:53.558853
+Erro ao converter pH: Bad state: No element3:45:54.555387
+Erro ao converter pH: Bad state: No element3:45:54.572270
+Erro ao converter pH: Bad state: No element3:46:07.675168
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:46:07.697166
+Erro ao converter pH: Bad state: No element3:46:08.693165
+Erro ao converter pH: Bad state: No element3:46:08.713164
+Erro ao converter pH: Bad state: No element3:46:09.713304
+Erro ao converter pH: Bad state: No element3:46:09.733302
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:46:10.733673
+Erro ao converter pH: Bad state: No element75367352673
+Erro ao converter pH: Bad state: No element3:46:11.753671
+Erro ao converter pH: Bad state: No element3:46:11.772673
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:24.872286
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:24.894286
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:25.891546
+Dados recebidos: 
+ - 2023-12-01 23:46:25.911911.910938
+Dados recebidos: 
+ - 2023-12-01 23:46:26.91199326.911993
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:26.927649
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:27.931910
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:27.951907
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:28.951632
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:46:28.971631
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:42.070487
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:42.091492
+Dados recebidos: pH - 2023-12-01 23:46:43.089559.090558
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:43.109558
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:44.110032
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:44.128563
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:45.123628
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:45.140736
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:46.138553
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:46:46.155301
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:46:59.269303
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:46:59.287271
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:00.288273
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:00.307273
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:01.308273
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:01.328272
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:02.316482
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:02.347732
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:03.337914
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:47:03.353568
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:47:16.466973
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:47:16.485978
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:47:17.485973
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:47:17.505974
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:47:18.505975
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:47:18.525974
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x28742c3a2e0)
+SerialPort está aberta para leitura e escrita: true
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:47:51.470740
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:47:53.478928
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:47:55.492927
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:47:57.506036
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:47:59.520038
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:13.631567
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:13.662568
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:14.651787
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:14.671788
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:15.671788
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:15.691789
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:16.691790
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:16.711787
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:17.711822
+Dados recebidos: pH: 10.05
+ - 2023-12-01 23:48:17.731788
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:30.830349
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:30.849350
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:31.850349
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:31.869351
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:32.870353
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:32.889352
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:33.890349
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:33.909352
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:34.910444
+Dados recebidos: pH: 12.23
+ - 2023-12-01 23:48:34.930443
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:48.028511
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:48.047541
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:49.048511
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:49.068513
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:50.068543
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:50.087513
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:51.088516
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:51.108515
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:52.108593
+Dados recebidos: pH: 12.30
+ - 2023-12-01 23:48:52.127592
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:05.225997
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:05.245997
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:06.248998
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:06.265998
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:07.265997
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:07.285996
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:08.286995
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:08.305996
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:09.305612
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:49:09.322226
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x1f76698f6e0)
+SerialPort está aberta para leitura e escrita: true
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:49:51.689729
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:49:53.698727
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:49:55.711819
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:49:57.725818
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:49:59.738849
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:13.850956
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:13.880956
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:14.870958
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:14.890957
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:15.890958
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:15.910956
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:16.911955
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:16.930956
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:17.931957
+Dados recebidos: pH: 10.07
+ - 2023-12-01 23:50:17.950960
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:31.049534
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:31.072505
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:32.069502
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:32.089504
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:33.089605
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:33.109606
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:34.109607
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:34.129605
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:35.129608
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:50:35.149608
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:48.247637
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:48.270638
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:49.267607
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:49.287610
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:50.287607
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:50.307638
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:51.308770
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:51.328770
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:52.327769
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:50:52.347771
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:05.445842
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:05.467842
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:06.465843
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:06.485843
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:07.485847
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:07.505844
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:08.505845
+Dados recebidos: : 12.26
+ - 2023-12-01 23:51:08.525843
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:09.525846
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:51:09.545843
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:22.643902
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:22.663907
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:23.663902
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:23.684906
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:24.683905
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:24.704041
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:25.704165
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:25.724169
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:26.724351
+Dados recebidos: pH: 12.28
+ - 2023-12-01 23:51:26.744323
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:39.842078
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:39.864115
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:40.862109
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:40.882078
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:41.882080
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:41.902078
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:42.903080
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:42.922081
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:43.922080
+Dados recebidos: pH: 12.18
+ - 2023-12-01 23:51:43.942080
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:51:57.040370
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:51:57.060370
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:51:58.060446
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:51:58.080449
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:51:59.080547
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:51:59.100513
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:52:00.100513
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:52:00.120514
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:52:01.120544
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:52:01.140516
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:14.238946
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:14.257913
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:15.259945
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:15.277914
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:16.278917
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:16.297915
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:17.298913
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:17.318916
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:52:18.318914
+Dados recebidos: 2.24
+ - 2023-12-01 23:52:18.338945
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:31.436585
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:31.453929
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:32.453931
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:32.469555
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:33.469560
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:33.485181
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:34.485181
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:34.519750
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:35.506167
+Dados recebidos: pH: 12.29
+ - 2023-12-01 23:52:35.521793
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:48.634910
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:48.654907
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:49.654935
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:49.674904
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:50.674935
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:50.695906
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:51.694905
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:51.714906
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:52.716130
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:52:52.735129
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:05.829804
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:05.845429
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:06.845367
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:06.861023
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:07.869077
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:07.884675
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:08.881505
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:08.912785
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:09.901414
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:09.932665
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:23.031184
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:23.051156
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:24.051184
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:24.071160
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:25.072158
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:25.091188
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:26.092157
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:26.111158
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:27.111320
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:27.131352
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:40.217078
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:40.248299
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:41.237996
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:41.271862
+Dados recebidos: .24
+ - 2023-12-01 23:53:42.2710436
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:42.288074
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:43.287848
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:43.304576
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:44.304420
+Dados recebidos: pH: 12.24
+ - 2023-12-01 23:53:44.321404
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:53:57.421172
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:53:57.438320
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:53:58.448434
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:53:58.471544
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:53:59.454951
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:53:59.488359
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:54:00.486006
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:54:00.501602
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:54:01.508696
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:54:01.527697
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:14.626328
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:14.651328
+Dados recebidos: H: 12.25
+ - 2023-12-01 23:54:15.640196
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:15.664300
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:16.658034
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:16.682288
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:17.684824
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:17.700456
+Dados recebidos: 5
+ - 2023-12-01 23:54:18.70615206152
+Dados recebidos: pH: 12.25
+ - 2023-12-01 23:54:18.726487
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x1cf7a6c8bc0)
+SerialPort está aberta para leitura e escrita: true
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:58:03.284667
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:58:05.291666
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:58:07.305758
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:58:09.318789
+Dados recebidos: pH: 0.00
+ - 2023-12-01 23:58:11.331825
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:25.444006
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:25.469007
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:26.463007
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:26.481007
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:27.482007
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:27.500008
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:28.501007
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:28.519007
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:29.519128
+Dados recebidos: pH: 9.83
+ - 2023-12-01 23:58:29.538155
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:42.637410
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:42.657409
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:43.657409
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:43.677408
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:44.677592
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:44.697592
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:45.697595
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:45.717592
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:46.717593
+Dados recebidos: pH: 12.21
+ - 2023-12-01 23:58:46.737593
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:58:59.836268
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:58:59.855264
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:00.856264
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:00.875266
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:01.876269
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:01.895265
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:02.896266
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:02.915266
+Dados recebidos: 
+ - 2023-12-01 23:59:03.91626403.916264
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:03.935266
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:17.034347
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:17.053378
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:18.054348
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:18.073378
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:19.074378
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:19.093381
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:20.094347
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:20.114348
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:21.114351
+Dados recebidos: pH: 12.27
+ - 2023-12-01 23:59:21.134349
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:34.222985
+Dados recebidos: 
+ - 2023-12-01 23:59:34.254269.254269
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:35.252190
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:35.271801
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:36.266395
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:36.282023
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:37.282049
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:37.297645
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:38.297645
+Dados recebidos: pH: 12.26
+ - 2023-12-01 23:59:38.328898
+Iniciando a conexão com a porta serial
+Nenhuma porta selecionada
+Portas disponíveis: [COM1, COM4] porta serial
+Porta selecionada: COM4
+Iniciando a conexão com a porta serial
+SerialPort: SerialPort(Pointer: address=0x149faea36e0)
+SerialPort está aberta para leitura e escrita: true
+SerialPortReader: Instance of '_SerialPortReaderImpl'
+Dados recebidos: pH: 0.00
+ - 2023-12-02 00:00:14.534436
+Dados recebidos: pH: 0.00
+ - 2023-12-02 00:00:16.543547
+Dados recebidos: pH: 0.00
+ - 2023-12-02 00:00:18.557549
+Dados recebidos: pH: 0.00
+ - 2023-12-02 00:00:20.570551
+Dados recebidos: pH: 0.00
+ - 2023-12-02 00:00:22.583839
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:36.696095
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:36.727098
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:37.716305
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:37.736300
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:38.736407
+Dados recebidos: 
+ - 2023-12-02 00:00:38.756406.756406
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:39.756407
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:39.776409
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:40.776441
+Dados recebidos: pH: 10.03
+ - 2023-12-02 00:00:40.796407
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:53.894558
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:53.914562
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:54.914590
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:54.934556
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:55.934557
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:55.954558
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:56.954559
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:56.974559
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:57.974557
+Dados recebidos: pH: 12.21
+ - 2023-12-02 00:00:57.994557
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:11.092909
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:11.111908
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:12.112907
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:12.132910
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:13.132919
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:13.152908
+Dados recebidos: 
+ - 2023-12-02 00:01:14.152909.152909
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:14.172910
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:15.172908
+Dados recebidos: pH: 12.26
+ - 2023-12-02 00:01:15.192912
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:28.291436
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:28.310433
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:29.311432
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:29.330432
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:30.331436
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:30.351435
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:31.351603
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:31.370575
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:32.371572
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:01:32.390575
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:45.489112
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:45.509113
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:46.509111
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:46.529113
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:47.520440
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:47.537173
+Dados recebidos: .27
+ - 2023-12-02 00:01:48.5392388
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:48.554862
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:49.557891
+Dados recebidos: pH: 12.27
+ - 2023-12-02 00:01:49.589140
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:02.683579
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:02.699205
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:03.702155
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:03.717784
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:04.723535
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:04.746914
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:05.743260
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:05.758859
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:06.761605
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:02:06.777258
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:19.884939
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:19.900563
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:20.893939
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:20.925188
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:21.915882
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:21.931482
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:22.935577
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:22.951177
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:23.951188
+Dados recebidos: pH: 12.17
+ - 2023-12-02 00:02:23.982434
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:37.082400
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:37.107620
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:38.099092
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:38.114715
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:39.119903
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:39.135560
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:40.144288
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:40.153290
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:41.150031
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:02:41.181279
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:54.269955
+Dados recebidos:  12.20
+ - 2023-12-02 00:02:54.301255e: Only valid value is 0: 1
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:55.298044
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:55.313669
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:56.318173
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:56.341933
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:57.335072
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:57.350727
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:58.361919
+Dados recebidos: pH: 12.20
+ - 2023-12-02 00:02:58.369954
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:11.468078
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:11.499558
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:12.493201
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:12.508830
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:13.516589
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:13.532190
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:14.532824
+Dados recebidos: : 12.19
+ - 2023-12-02 00:03:14.548420
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:15.560504
+Dados recebidos: pH: 12.19
+ - 2023-12-02 00:03:15.580518
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:28.673170
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:28.688795
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:29.698844
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:29.718209
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:30.708619
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:30.724244
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:31.739115
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:31.753116
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:32.748976
+Dados recebidos: pH: 12.23
+ - 2023-12-02 00:03:32.764627
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:45.877036
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:45.892632
+Dados recebidos: : 12.25
+ - 2023-12-02 00:03:46.886256
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:46.901877
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:47.907413
+Dados recebidos: 12.25
+ - 2023-12-02 00:03:47.937633
+
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:48.936860
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:48.957236
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:49.956590
+Dados recebidos: pH: 12.25
+ - 2023-12-02 00:03:49.976559
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:03.075584
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:03.086649
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:04.094727
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:04.103635
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:05.114651
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:05.134329
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:06.121891
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:06.155178
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:07.146801
+Dados recebidos: pH: 12.29
+ - 2023-12-02 00:04:07.162403
